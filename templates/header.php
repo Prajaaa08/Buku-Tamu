@@ -1,3 +1,7 @@
+<?php
+require_once('function.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +25,7 @@
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -143,7 +147,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/222/2024/08/18/WhatsApp-Image-2024-08-17-at-140220-4284981413.jpeg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
