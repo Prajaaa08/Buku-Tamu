@@ -72,7 +72,7 @@ include_once('templates/header.php');
                             <td><?= $tamu['kepentingan'] ?></td>
                             <td>
                                 <a class="btn btn-success" href="edit-tamu.php?id=<?= $tamu['id_tamu']?>">Ubah</a>
-                                <a onclick="confirm('Apakah anda yakin ingin menghapus data ini?')" class="btn btn-danger" href="hapus-tamu.php?id=<?= $tamu['id_tamu']?>">Hapus</a>
+                                <a onclick="return confirm('Apakah anda yakin ingin menghapus data ini?')" class="btn btn-danger" href="hapus-tamu.php?id=<?= $tamu['id_tamu']?>">Hapus</a>
                         </tr>
                         <?php endforeach; ?>
                     </tbody>
@@ -106,7 +106,7 @@ include_once('templates/header.php');
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="tambahModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="tambahModalLabel">Tambah Modal</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
